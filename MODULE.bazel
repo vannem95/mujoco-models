@@ -1,0 +1,6 @@
+"""
+    Mujoco Models
+"""
+module(
+    name = "mujoco-models",
+)

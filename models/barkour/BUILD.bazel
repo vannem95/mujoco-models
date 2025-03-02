@@ -1,0 +1,8 @@
+filegroup(
+    name = "barkour",
+    srcs = glob([
+        "**",
+        "assets/**",
+    ]),
+    visibility = ["//visibility:public"],
+)
