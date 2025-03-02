@@ -1,17 +1,17 @@
 filegroup(
     name = "barkour",
-    srcs = ["models/barkour:barkour"],
+    srcs = ["//models/barkour:barkour"],
     visibility = ["//visibility:public"],
 )
 
 filegroup(
     name = "unitree_go1",
-    srcs = ["models/unitree_go1:unitree_go1"],
+    srcs = ["//models/unitree_go1:unitree_go1"],
     visibility = ["//visibility:public"],
 )
 
 filegroup(
     name = "unitree_go2",
-    srcs = ["models/unitree_go2:unitree_go2"],
+    srcs = ["//models/unitree_go2:unitree_go2"],
     visibility = ["//visibility:public"],
 )
