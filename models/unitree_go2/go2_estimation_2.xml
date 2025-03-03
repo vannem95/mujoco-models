@@ -7,7 +7,7 @@
 
     <custom>
         <numeric name="estimator_sensor_start" data="0"/>
-        <numeric name="estimator_number_sensor" data="39"/>
+        <numeric name="estimator_number_sensor" data="27"/>
         <numeric name="estimator_covariance_initial_scale" data="0.0001"/>
         <numeric name="estimator_process_noise_scale" data="0.0001"/>
         <numeric name="estimator_sensor_noise_scale" data="0.0001"/>
@@ -247,7 +247,7 @@
         <jointactuatorfrc name="hind_left_hip_torque" joint="hind_left_hip_joint" noise="0.01"/>
         <jointactuatorfrc name="hind_left_thigh_torque" joint="hind_left_thigh_joint" noise="0.01"/>
         <jointactuatorfrc name="hind_left_calf_torque" joint="hind_left_calf_joint" noise="0.01"/> -->
-        
+
 
         <framequat name="imu_quaternion" objtype="site" objname="imu"/>
         <gyro name="imu_gyro" site="imu"/>
