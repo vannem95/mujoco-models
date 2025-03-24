@@ -5,14 +5,6 @@
         <flag eulerdamp="disable"/>
     </option>
 
-    <custom>
-        <numeric name="estimator_sensor_start" data="0"/>
-        <numeric name="estimator_number_sensor" data="39"/>
-        <numeric name="estimator_covariance_initial_scale" data="0.0001"/>
-        <numeric name="estimator_process_noise_scale" data="0.0001"/>
-        <numeric name="estimator_sensor_noise_scale" data="0.0001"/>
-    </custom>
-
     <default>
         <default class="go2">
         <geom friction="0.6" contype="0" conaffinity="0" type="mesh"/>
