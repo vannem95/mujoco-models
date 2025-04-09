@@ -15,3 +15,9 @@ filegroup(
     srcs = ["//models/unitree_go2:unitree_go2"],
     visibility = ["//visibility:public"],
 )
+
+filegroup(
+    name = "walter_sr",
+    srcs = ["//models/walter_sr:WaLTER_Senior.xml"],
+    visibility = ["//visibility:public"],
+)
