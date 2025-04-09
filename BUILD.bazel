@@ -18,6 +18,6 @@ filegroup(
 
 filegroup(
     name = "walter_sr",
-    srcs = ["//models/walter_sr:WaLTER_Senior.xml"],
+    srcs = ["//models/walter_sr:walter_sr"],
     visibility = ["//visibility:public"],
 )
