@@ -105,4 +105,17 @@
     <!-- <general name="fr_wheel1_joint" joint="head_right_shin_front_wheel_joint"/> -->
     <!-- <general name="fr_wheel2_joint" joint="head_right_shin_rear_wheel_joint"/> -->
   </actuator>
+
+    <keyframe>
+      <key name="home" 
+        qpos="0 0 0 1 0 0 0 
+              0 0 
+              0 0 
+              0 0 
+              0 0"
+        ctrl="0 0 
+              0 0 
+              0 0 
+              0 0"/>
+    </keyframe>
 </mujoco>
