@@ -1,5 +1,5 @@
 filegroup(
-    name = "WaLTER_Senior",
+    name = "walter_sr",
     srcs = glob([
         "**",
     ]),
