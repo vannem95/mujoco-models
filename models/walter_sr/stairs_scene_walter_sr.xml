@@ -39,74 +39,74 @@
     </body> -->
     <!-- stairs -->
     <body name="step_0" pos="1.0 0 0.0">
-      <geom type="box" size="0.2 0.5 0.05" material="groundplane"/>
-      <geom type="box" size="0.2 0.5 0.05" conaffinity="1" condim="3"/>
+      <geom type="box" size="0.2 1.5 0.05" material="groundplane"/>
+      <geom type="box" size="0.2 1.5 0.05" conaffinity="1" condim="3"/>
     </body>
 
     <body name="step_1" pos="1.2 0 0.05">
-      <geom type="box" size="0.2 0.5 0.05" material="groundplane"/>
-      <geom type="box" size="0.2 0.5 0.05" conaffinity="1" condim="3"/>
+      <geom type="box" size="0.2 1.5 0.05" material="groundplane"/>
+      <geom type="box" size="0.2 1.5 0.05" conaffinity="1" condim="3"/>
     </body>
 
     <body name="step_2" pos="1.4 0 0.10">
-      <geom type="box" size="0.2 0.5 0.05" material="groundplane"/>
-      <geom type="box" size="0.2 0.5 0.05" conaffinity="1" condim="3"/>
+      <geom type="box" size="0.2 1.5 0.05" material="groundplane"/>
+      <geom type="box" size="0.2 1.5 0.05" conaffinity="1" condim="3"/>
     </body>
 
     <body name="step_3" pos="1.6 0 0.15">
-      <geom type="box" size="0.2 0.5 0.05" material="groundplane"/>
-      <geom type="box" size="0.2 0.5 0.05" conaffinity="1" condim="3"/>
+      <geom type="box" size="0.2 1.5 0.05" material="groundplane"/>
+      <geom type="box" size="0.2 1.5 0.05" conaffinity="1" condim="3"/>
     </body>
 
     <body name="step_4" pos="1.8 0 0.20">
-      <geom type="box" size="0.2 0.5 0.05" material="groundplane"/>
-      <geom type="box" size="0.2 0.5 0.05" conaffinity="1" condim="3"/>
+      <geom type="box" size="0.2 1.5 0.05" material="groundplane"/>
+      <geom type="box" size="0.2 1.5 0.05" conaffinity="1" condim="3"/>
     </body>
 
     <body name="step_5" pos="2.0 0 0.25">
-      <geom type="box" size="0.2 0.5 0.05" material="groundplane"/>
-      <geom type="box" size="0.2 0.5 0.05" conaffinity="1" condim="3"/>
+      <geom type="box" size="0.2 1.5 0.05" material="groundplane"/>
+      <geom type="box" size="0.2 1.5 0.05" conaffinity="1" condim="3"/>
     </body>
 
     <body name="step_6" pos="2.2 0 0.30">
-      <geom type="box" size="0.2 0.5 0.05" material="groundplane"/>
-      <geom type="box" size="0.2 0.5 0.05" conaffinity="1" condim="3"/>
+      <geom type="box" size="0.2 1.5 0.05" material="groundplane"/>
+      <geom type="box" size="0.2 1.5 0.05" conaffinity="1" condim="3"/>
     </body>
 
     <body name="step_7" pos="2.4 0 0.35">
-      <geom type="box" size="0.2 0.5 0.05" material="groundplane"/>
-      <geom type="box" size="0.2 0.5 0.05" conaffinity="1" condim="3"/>
+      <geom type="box" size="0.2 1.5 0.05" material="groundplane"/>
+      <geom type="box" size="0.2 1.5 0.05" conaffinity="1" condim="3"/>
     </body>
 
     <body name="step_8" pos="2.6 0 0.40">
-      <geom type="box" size="0.2 0.5 0.05" material="groundplane"/>
-      <geom type="box" size="0.2 0.5 0.05" conaffinity="1" condim="3"/>
+      <geom type="box" size="0.2 1.5 0.05" material="groundplane"/>
+      <geom type="box" size="0.2 1.5 0.05" conaffinity="1" condim="3"/>
     </body>
 
     <body name="step_9" pos="2.8 0 0.45">
-      <geom type="box" size="0.2 0.5 0.05" material="groundplane"/>
-      <geom type="box" size="0.2 0.5 0.05" conaffinity="1" condim="3"/>
+      <geom type="box" size="0.2 1.5 0.05" material="groundplane"/>
+      <geom type="box" size="0.2 1.5 0.05" conaffinity="1" condim="3"/>
     </body>
 
     <body name="step_10" pos="3.0 0 0.50">
-      <geom type="box" size="0.2 0.5 0.05" material="groundplane"/>
-      <geom type="box" size="0.2 0.5 0.05" conaffinity="1" condim="3"/>
+      <geom type="box" size="0.2 1.5 0.05" material="groundplane"/>
+      <geom type="box" size="0.2 1.5 0.05" conaffinity="1" condim="3"/>
     </body>
 
     <body name="step_11" pos="3.2 0 0.55">
-      <geom type="box" size="0.2 0.5 0.05" material="groundplane"/>
-      <geom type="box" size="0.2 0.5 0.05" conaffinity="1" condim="3"/>
+      <geom type="box" size="0.2 1.5 0.05" material="groundplane"/>
+      <geom type="box" size="0.2 1.5 0.05" conaffinity="1" condim="3"/>
     </body>
 
     <body name="step_12" pos="3.4 0 0.60">
-      <geom type="box" size="0.2 0.5 0.05" material="groundplane"/>
-      <geom type="box" size="0.2 0.5 0.05" conaffinity="1" condim="3"/>
+      <geom type="box" size="0.2 1.5 0.05" material="groundplane"/>
+      <geom type="box" size="0.2 1.5 0.05" conaffinity="1" condim="3"/>
     </body>
 
     <body name="step_13" pos="3.6 0 0.65">
-      <geom type="box" size="0.2 0.5 0.05" material="groundplane"/>
-      <geom type="box" size="0.2 0.5 0.05" conaffinity="1" condim="3"/>
-    </body>    
+      <geom type="box" size="0.2 1.5 0.05" material="groundplane"/>
+      <geom type="box" size="0.2 1.5 0.05" conaffinity="1" condim="3"/>
+    </body>        
 
 
   </worldbody>
