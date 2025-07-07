@@ -1,5 +1,5 @@
 <mujoco model="walter_sr scene">
-  <include file="WaLTER_Senior_wheels.xml"/>
+  <include file="WaLTER_Senior.xml"/>
 
   <statistic center="0 0 0.1" extent="0.8"/>
 
