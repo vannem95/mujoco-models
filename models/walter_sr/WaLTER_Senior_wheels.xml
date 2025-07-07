@@ -17,7 +17,6 @@
           <body name="torso_left_front_wheel" pos="0.08 0.055 0">
             <joint name="torso_left_shin_front_wheel_joint" pos="0 0 0" axis="0 1 0" armature="1e-05" damping="0.2"/>
             <geom name="torso_left_front_wheel_geom" size="0.065 0.065 0.035" quat="0.707107 0.707107 0 0" type="ellipsoid" solref="0.2 0.5" mass="0.5" rgba="0.694118 0.65098 0.533333 1"/>
-            <!-- <site name="lf_wheel_site" pos="0 0 0" size="0.08" type="ellipsoid" rgba="1 0 0 1"/>             -->
             <site name="tlf_wheel_site" pos="0 0 0" size="0.065 0.065 0.035" quat="0.707107 0.707107 0 0" type="ellipsoid" rgba="1 0 0 1"/>            
           </body>
           <body name="torso_left_rear_wheel" pos="-0.08 0.055 0">
