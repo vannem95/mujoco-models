@@ -113,6 +113,27 @@
     <general name="fr_wheel2_joint" joint="head_right_shin_rear_wheel_joint"/>
   </actuator>
 
+<!-- <key
+  time="0"
+  qpos="0 0 0.5 1 0 0 0 
+  0 0
+  0 0 
+  0 0 
+  0 0 
+  0 0 
+  0 0 
+  0 0 
+  0 0"
+  ctrl="0 0 
+  0 0 
+  0 0 
+  0 0 
+  0 0 
+  0 0 
+  0 0 
+  0 0"
+/> -->
+
     <!-- key frame has 0,0 for wheel sites because the bodies have the positions fixed/initialized -->
     <keyframe>
       <key name="home"       
@@ -120,12 +141,24 @@
               0 0 
               0 0 
               0 0 
+              0 0
+              0 0 
+              0 0 
+              0 0 
               0 0"
         ctrl="0 0 
               0 0 
               0 0 
+              0 0
+              0 0 
+              0 0 
+              0 0 
               0 0"/>
-      <key name="flat"       
+                               
+    </keyframe>
+        <!-- qpos='0.0898423 -0.0025112 0.05 1 0 0 0 3.62333 -5.46591 3.62333 -5.46591 3.62333 -5.46591 3.62333 -5.46591 ' -->
+
+      <!-- <key name="flat"       
         qpos='0 0 0.05 1 0 0 0 1.71253 -1.71287 1.71253 -1.71287 -1.71253 1.71287 -1.71253 1.71287'
         ctrl="0 0 
               0 0 
@@ -156,7 +189,7 @@
         ctrl="0 0 
               0 0 
               0 0 
-              0 0"/>                                  
-    </keyframe>
-        <!-- qpos='0.0898423 -0.0025112 0.05 1 0 0 0 3.62333 -5.46591 3.62333 -5.46591 3.62333 -5.46591 3.62333 -5.46591 ' -->
+              0 0"/>    -->
+
+
 </mujoco>
