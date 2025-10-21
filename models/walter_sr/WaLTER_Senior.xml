@@ -138,7 +138,7 @@
     <!-- <general name="fr_wheel2_joint" joint="head_right_shin_rear_wheel_joint"/> -->
   </actuator>
 
-    <!-- key frame has 0,0 for wheel sites because the bodies have the positions fixed/initialized -->
+    <!-- key frame has 0,0 for wheel sites because the bodies have the positions fixed/initialized (k0 - z -) -->
     <keyframe>
       <key name="home"       
         qpos="0 0 0.1675 1 0 0 0 
@@ -181,7 +181,17 @@
         ctrl="0 0 
               0 0 
               0 0 
-              0 0"/>                                  
+              0 0"/>
+      <key name="shinup30deg"       
+        qpos="0 0 0.19 1 0 0 0 
+              0.534 0 
+              0.534 0
+              -0.534 0
+              -0.534 0"
+        ctrl="0 0 
+              0 0 
+              0 0 
+              0 0"/>                                                
     </keyframe>
         <!-- qpos='0.0898423 -0.0025112 0.05 1 0 0 0 3.62333 -5.46591 3.62333 -5.46591 3.62333 -5.46591 3.62333 -5.46591 ' -->
 </mujoco>
