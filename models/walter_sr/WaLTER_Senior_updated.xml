@@ -123,6 +123,13 @@
     <!-- <general name="fr_wheel2_joint" joint="head_right_shin_rear_wheel_joint"/> -->
   </actuator>
 
+
+  <sensor>
+    <force  name="hrf_wheel_force_sensor"  site="hrf_wheel_site"/>
+    <torque name="hrf_wheel_torque_sensor" site="hrf_wheel_site"/>
+  </sensor>
+
+
     <!-- key frame has 0,0 for wheel sites because the bodies have the positions fixed/initialized (k0 - z -) -->
     <keyframe>
       <key name="home"       
