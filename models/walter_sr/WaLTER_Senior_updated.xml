@@ -125,8 +125,8 @@
 
 
   <sensor>
-    <force  name="hrf_wheel_force_sensor"  site="tlf_wheel_site"/>
-    <torque name="hrf_wheel_torque_sensor" site="tlf_wheel_site"/>
+    <force  name="hrf_wheel_force_sensor"  site="hlr_wheel_site"/>
+    <torque name="hrf_wheel_torque_sensor" site="hlr_wheel_site"/>
   </sensor>
 
 
