@@ -31,12 +31,12 @@
       </body>
       
       <body name="torso_right_thigh" pos="-0.0761 -0.10795 0">
-        <joint name="torso_right_thigh_joint" pos="0 0 0" axis="0 1 0" armature="0.0072" damping="5.0"/>
+        <joint name="torso_right_thigh_joint" pos="0 0 0" axis="0 -1 0" armature="0.0072" damping="5.0"/>
         <geom name="torso_right_thigh_geom" size="0.02 0.0508" pos="0 -0.02 -0.0508" type="capsule" mass="0.5" rgba="0.694118 0.65098 0.533333 1"/>
         <site name="tr_thigh_site" pos="0 0 0" rgba="1 0 0 1"/>            
         
         <body name="torso_right_shin" pos="0 -0.06135 -0.1016">
-          <joint name="torso_right_thigh_shin_joint" pos="0 0 0" axis="0 1 0" armature="0.01805" damping="5.0"/>
+          <joint name="torso_right_thigh_shin_joint" pos="0 0 0" axis="0 -1 0" armature="0.01805" damping="5.0"/>
           <geom name="torso_right_shin_geom" size="0.015 0.08255" quat="0.707107 0 0.707107 0" type="capsule" mass="0.5" rgba="0.694118 0.65098 0.533333 1"/>
           <site name="tr_shin_site" pos="0 0 0" rgba="1 0 0 1"/>            
           
@@ -79,12 +79,12 @@
         </body>
         
         <body name="head_right_thigh" pos="0.0761 -0.10795 0">
-          <joint name="head_right_thigh_joint" pos="0 0 0" axis="0 1 0" armature="0.0072" damping="5.0"/>
+          <joint name="head_right_thigh_joint" pos="0 0 0" axis="0 -1 0" armature="0.0072" damping="5.0"/>
           <geom name="head_right_thigh_geom" size="0.02 0.0508" pos="0 -0.02 -0.0508" type="capsule" mass="0.5" rgba="0.694118 0.65098 0.533333 1"/>
           <site name="hr_thigh_site" pos="0 0 0" rgba="1 0 0 1"/>            
           
           <body name="head_right_shin" pos="0 -0.06135 -0.1016">
-            <joint name="head_right_thigh_shin_joint" pos="0 0 0" axis="0 1 0" armature="0.01805" damping="5.0"/>
+            <joint name="head_right_thigh_shin_joint" pos="0 0 0" axis="0 -1 0" armature="0.01805" damping="5.0"/>
             <geom name="head_right_shin_geom" size="0.015 0.08255" quat="0.707107 0 0.707107 0" type="capsule" mass="0.5" rgba="0.694118 0.65098 0.533333 1"/>
             <site name="hr_shin_site" pos="0 0 0" rgba="1 0 0 1"/>
 
