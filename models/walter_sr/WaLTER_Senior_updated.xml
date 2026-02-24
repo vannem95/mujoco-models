@@ -3,7 +3,7 @@
 
   <worldbody>
     <body name="torso" pos="0 0 0.5">
-      <site name="torso_site" pos="0 0 0.05" type="sphere" rgba="1 0 0 1"/>            
+      <site name="torso_site" pos="0.188 0 0.08" type="sphere" rgba="1 0 0 1"/>            
       <joint name="torso_joint" type="free" limited="false" actuatorfrclimited="false"/>
       <!-- <geom size="0.165 0.08255 0.0762" type="box" mass="11.25" rgba="0.694118 0.65098 0.533333 1"/> -->
       <geom size="0.165 0.08255 0.0762" type="box" mass="11.564" rgba="0.694118 0.65098 0.533333 1"/>
@@ -129,6 +129,8 @@
   <sensor>
     <force  name="hrf_wheel_force_sensor"  site="hlr_wheel_site"/>
     <torque name="hrf_wheel_torque_sensor" site="hlr_wheel_site"/>
+    <accelerometer name="body_accel" site="torso_site"/>
+    <gyro name="body_gyro" site="torso_site"/>    
   </sensor>
 
 
