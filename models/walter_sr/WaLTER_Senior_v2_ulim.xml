@@ -1,6 +1,10 @@
 <mujoco model="MuJoCo Model">
   <compiler angle="radian" autolimits="false"/>
 
+  <default>
+    <general ctrllimited="true" forcelimited="true"/> 
+  </default>
+  
   <worldbody>
     <body name="torso" pos="0 0 0.5">
       <site name="torso_site" pos="0.188 0 0.08" type="sphere" rgba="1 0 0 1"/>            
