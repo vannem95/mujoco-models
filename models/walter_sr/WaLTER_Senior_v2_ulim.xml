@@ -2,7 +2,7 @@
   <compiler angle="radian" autolimits="false"/>
 
   <default>
-    <general ctrllimited="true" forcelimited="true"/> 
+    <general ctrllimited="true"/> 
   </default>
   
   <worldbody>
