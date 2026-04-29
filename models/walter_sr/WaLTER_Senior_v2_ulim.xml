@@ -107,20 +107,20 @@
   </worldbody>
 
   <actuator>
-    <general name="bl_hip" joint="torso_left_thigh_joint" ctrllimited="true" ctrlrange="-100 100"/>
-    <general name="bl_knee" joint="torso_left_thigh_shin_joint" ctrllimited="true" ctrlrange="-100 100"/>
+    <general name="bl_hip" joint="torso_left_thigh_joint" ctrllimited="true" ctrlrange="-10 10"/>
+    <general name="bl_knee" joint="torso_left_thigh_shin_joint" ctrllimited="true" ctrlrange="-10 10"/>
     <!-- <general name="bl_wheel1_joint" joint="torso_left_shin_front_wheel_joint"/> -->
     <!-- <general name="bl_wheel2_joint" joint="torso_left_shin_rear_wheel_joint"/> -->
-    <general name="br_hip" joint="torso_right_thigh_joint" ctrllimited="true" ctrlrange="-100 100"/>
-    <general name="br_knee" joint="torso_right_thigh_shin_joint" ctrllimited="true" ctrlrange="-100 100"/>
+    <general name="br_hip" joint="torso_right_thigh_joint" ctrllimited="true" ctrlrange="-10 10"/>
+    <general name="br_knee" joint="torso_right_thigh_shin_joint" ctrllimited="true" ctrlrange="-10 10"/>
     <!-- <general name="br_wheel1_joint" joint="torso_right_shin_front_wheel_joint"/> -->
     <!-- <general name="br_wheel2_joint" joint="torso_right_shin_rear_wheel_joint"/> -->
-    <general name="fl_hip" joint="head_left_thigh_joint" ctrllimited="true" ctrlrange="-100 100"/>
-    <general name="fl_knee" joint="head_left_thigh_shin_joint" ctrllimited="true" ctrlrange="-100 100"/>
+    <general name="fl_hip" joint="head_left_thigh_joint" ctrllimited="true" ctrlrange="-10 10"/>
+    <general name="fl_knee" joint="head_left_thigh_shin_joint" ctrllimited="true" ctrlrange="-10 10"/>
     <!-- <general name="fl_wheel1_joint" joint="head_left_shin_front_wheel_joint"/> -->
     <!-- <general name="fl_wheel2_joint" joint="head_left_shin_rear_wheel_joint"/> -->
-    <general name="fr_hip" joint="head_right_thigh_joint" ctrllimited="true" ctrlrange="-100 100"/>
-    <general name="fr_knee" joint="head_right_thigh_shin_joint" ctrllimited="true" ctrlrange="-100 100"/>
+    <general name="fr_hip" joint="head_right_thigh_joint" ctrllimited="true" ctrlrange="-10 10"/>
+    <general name="fr_knee" joint="head_right_thigh_shin_joint" ctrllimited="true" ctrlrange="-10 10"/>
     <!-- <general name="fr_wheel1_joint" joint="head_right_shin_front_wheel_joint"/> -->
     <!-- <general name="fr_wheel2_joint" joint="head_right_shin_rear_wheel_joint"/> -->
   </actuator>
