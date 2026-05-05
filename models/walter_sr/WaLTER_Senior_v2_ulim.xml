@@ -23,12 +23,12 @@
           <site name="tl_shin_site" pos="0 0 0" rgba="1 0 0 1"/>            
           
           <body name="torso_left_front_wheel" pos="0.08255 0.04675 0">
-            <geom name="torso_left_front_wheel_geom" size="0.0635 0.0635 0.03175" quat="0.707107 0.707107 0 0" type="ellipsoid" solref="0.2 0.5" mass="0.873" rgba="0.694118 0.65098 0.533333 1"/>
+            <geom name="torso_left_front_wheel_geom" size="0.0635 0.0635 0.03175" quat="0.707107 0.707107 0 0" type="ellipsoid" solref="0.001 1.0" mass="0.873" rgba="0.694118 0.65098 0.533333 1"/>
             <site name="tlf_wheel_site" pos="0 0 0" size="0.0635 0.0635 0.03175" quat="0.707107 0.707107 0 0" type="ellipsoid" rgba="1 0 0 1"/>            
           </body>
           
           <body name="torso_left_rear_wheel" pos="-0.08255 0.04675 0">
-            <geom name="torso_left_rear_wheel_geom" size="0.0635 0.0635 0.03175" quat="0.707107 0.707107 0 0" type="ellipsoid" solref="0.2 0.5" mass="0.873" rgba="0.694118 0.65098 0.533333 1"/>
+            <geom name="torso_left_rear_wheel_geom" size="0.0635 0.0635 0.03175" quat="0.707107 0.707107 0 0" type="ellipsoid" solref="0.001 1.0" mass="0.873" rgba="0.694118 0.65098 0.533333 1"/>
             <site name="tlr_wheel_site" pos="0 0 0" size="0.0635 0.0635 0.03175" quat="0.707107 0.707107 0 0" type="ellipsoid" rgba="1 0 0 1"/>            
           </body>
         </body>
@@ -45,12 +45,12 @@
           <site name="tr_shin_site" pos="0 0 0" rgba="1 0 0 1"/>            
           
           <body name="torso_right_front_wheel" pos="0.08255 -0.04675 0">
-            <geom name="torso_right_front_wheel_geom" size="0.0635 0.0635 0.03175" quat="0.707107 0.707107 0 0" type="ellipsoid" solref="0.2 0.5" mass="0.873" rgba="0.694118 0.65098 0.533333 1"/>
+            <geom name="torso_right_front_wheel_geom" size="0.0635 0.0635 0.03175" quat="0.707107 0.707107 0 0" type="ellipsoid" solref="0.001 1.0" mass="0.873" rgba="0.694118 0.65098 0.533333 1"/>
             <site name="trf_wheel_site" pos="0 0 0" size="0.0635 0.0635 0.03175" quat="0.707107 0.707107 0 0" type="ellipsoid" rgba="1 0 0 1"/>            
           </body>
           
           <body name="torso_right_rear_wheel" pos="-0.08255 -0.04675 0">
-            <geom name="torso_right_rear_wheel_geom" size="0.0635 0.0635 0.03175" quat="0.707107 0.707107 0 0" type="ellipsoid" solref="0.2 0.5" mass="0.873" rgba="0.694118 0.65098 0.533333 1"/>
+            <geom name="torso_right_rear_wheel_geom" size="0.0635 0.0635 0.03175" quat="0.707107 0.707107 0 0" type="ellipsoid" solref="0.001 1.0" mass="0.873" rgba="0.694118 0.65098 0.533333 1"/>
             <site name="trr_wheel_site" pos="0 0 0" size="0.0635 0.0635 0.03175" quat="0.707107 0.707107 0 0" type="ellipsoid" rgba="1 0 0 1"/>            
           </body>
         </body>
@@ -71,12 +71,12 @@
             <site name="hl_shin_site" pos="0 0 0" rgba="1 0 0 1"/>            
             
             <body name="head_left_front_wheel" pos="0.08255 0.04675 0">
-              <geom name="head_left_front_wheel_geom" size="0.0635 0.0635 0.03175" quat="0.707107 0.707107 0 0" type="ellipsoid" solref="0.2 0.5" mass="0.873" rgba="0.694118 0.65098 0.533333 1"/>
+              <geom name="head_left_front_wheel_geom" size="0.0635 0.0635 0.03175" quat="0.707107 0.707107 0 0" type="ellipsoid" solref="0.001 1.0" mass="0.873" rgba="0.694118 0.65098 0.533333 1"/>
               <site name="hlf_wheel_site" pos="0 0 0" size="0.0635 0.0635 0.03175" quat="0.707107 0.707107 0 0" type="ellipsoid" rgba="1 0 0 1"/>            
             </body>
             
             <body name="head_left_rear_wheel" pos="-0.08255 0.04675 0">
-              <geom name="head_left_rear_wheel_geom" size="0.0635 0.0635 0.03175" quat="0.707107 0.707107 0 0" type="ellipsoid" solref="0.2 0.5" mass="0.873" rgba="0.694118 0.65098 0.533333 1"/>
+              <geom name="head_left_rear_wheel_geom" size="0.0635 0.0635 0.03175" quat="0.707107 0.707107 0 0" type="ellipsoid" solref="0.001 1.0" mass="0.873" rgba="0.694118 0.65098 0.533333 1"/>
               <site name="hlr_wheel_site" pos="0 0 0" size="0.0635 0.0635 0.03175" quat="0.707107 0.707107 0 0" type="ellipsoid" rgba="1 0 0 1"/>            
               </body>
           </body>
@@ -93,12 +93,12 @@
             <site name="hr_shin_site" pos="0 0 0" rgba="1 0 0 1"/>
 
             <body name="head_right_front_wheel" pos="0.08255 -0.04675 0">
-              <geom name="head_right_front_wheel_geom" size="0.0635 0.0635 0.03175" quat="0.707107 0.707107 0 0" type="ellipsoid" solref="0.2 0.5" mass="0.873" rgba="0.694118 0.65098 0.533333 1"/>
+              <geom name="head_right_front_wheel_geom" size="0.0635 0.0635 0.03175" quat="0.707107 0.707107 0 0" type="ellipsoid" solref="0.001 1.0" mass="0.873" rgba="0.694118 0.65098 0.533333 1"/>
               <site name="hrf_wheel_site" pos="0 0 0" size="0.0635 0.0635 0.03175" quat="0.707107 0.707107 0 0" type="ellipsoid" rgba="1 0 0 1"/>            
             </body>
 
             <body name="head_right_rear_wheel" pos="-0.08255 -0.04675 0">
-              <geom name="head_right_rear_wheel_geom" size="0.0635 0.0635 0.03175" quat="0.707107 0.707107 0 0" type="ellipsoid" solref="0.2 0.5" mass="0.873" rgba="0.694118 0.65098 0.533333 1"/>
+              <geom name="head_right_rear_wheel_geom" size="0.0635 0.0635 0.03175" quat="0.707107 0.707107 0 0" type="ellipsoid" solref="0.001 1.0" mass="0.873" rgba="0.694118 0.65098 0.533333 1"/>
               <site name="hrr_wheel_site" pos="0 0 0" size="0.0635 0.0635 0.03175" quat="0.707107 0.707107 0 0" type="ellipsoid" rgba="1 0 0 1"/>            
               <site name="hrr_xaxis" type="capsule" size="0.005 0.04" pos="0.04 0 0" quat="0.707107 0 0.707107 0" rgba="1 0 0 1"/>
               <site name="hrr_yaxis" type="capsule" size="0.005 0.04" pos="0 -0.04 0" quat="0.707107 -0.707107 0 0" rgba="0 1 0 1"/>
