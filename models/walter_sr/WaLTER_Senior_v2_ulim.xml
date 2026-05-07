@@ -6,7 +6,8 @@
   </default>
   
   <worldbody>
-    <body name="torso" pos="0 0 0.5">
+    <!-- <body name="torso" pos="0 0 0.5"> -->
+    <body name="torso" pos="0 0 0.165">
       <site name="torso_site" pos="0.188 0 0.08" type="sphere" rgba="1 0 0 1"/>            
       <joint name="torso_joint" type="free" limited="false" actuatorfrclimited="false"/>
       <!-- <geom size="0.165 0.08255 0.0762" type="box" mass="11.25" rgba="0.694118 0.65098 0.533333 1"/> -->
