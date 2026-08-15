@@ -1,0 +1,106 @@
+<mujoco model="metallic_quadruped">
+  <compiler angle="degree" coordinate="local"/>
+  
+  <option timestep="0.005" gravity="0 0 -9.81"/>
+
+  <asset>
+    <!-- Procedural textures for reflections -->
+    <texture type="skybox" builtin="gradient" rgb1="0.3 0.5 0.7" rgb2="0 0 0" width="512" height="512"/>
+    <texture name="tex_floor" type="2d" builtin="checker" rgb1="0.2 0.3 0.4" rgb2="0.1 0.15 0.2" width="512" height="512" mark="cross" markrgb="0.8 0.8 0.8"/>
+    
+    <!-- Floor material -->
+    <material name="mat_floor" texture="tex_floor" texrepeat="5 5" reflectance="0.2" specular="0.2" shininess="0.1"/>
+    
+    <!-- METALLIC MATERIALS -->
+    <!-- High specular and shininess create sharp highlights. Reflectance mirrors the environment. -->
+    <material name="polished_aluminum" rgba="0.9 0.9 0.95 1" specular="1.0" shininess="0.9" reflectance="0.5"/>
+    <material name="anodized_gold" rgba="0.9 0.7 0.1 1" specular="0.8" shininess="0.8" reflectance="0.3"/>
+    <material name="matte_dark_metal" rgba="0.2 0.2 0.22 1" specular="0.5" shininess="0.3" reflectance="0.1"/>
+  </asset>
+
+  <default>
+    <joint type="hinge" limited="true" range="-60 60" damping="0.5"/>
+    <geom contype="1" conaffinity="1" condim="3" friction="1 0.1 0.1"/>
+    <!-- Default leg geometries to polished aluminum -->
+    <default class="leg_link">
+      <geom type="capsule" material="polished_aluminum" mass="1"/>
+    </default>
+  </default>
+
+  <worldbody>
+    <!-- STUDIO LIGHTING SETUP -->
+    <!-- Main key light casting shadows -->
+    <light directional="true" diffuse="0.8 0.8 0.8" specular="0.5 0.5 0.5" pos="0 0 5" dir="0 -1 -1" castshadow="true"/>
+    <!-- Fill light to illuminate the dark side -->
+    <light directional="true" diffuse="0.3 0.3 0.4" specular="0.2 0.2 0.2" pos="0 3 3" dir="0 -1 -1" castshadow="false"/>
+    <!-- Rim light from below to catch the metallic edges -->
+    <light directional="false" diffuse="0.2 0.2 0.2" pos="0 0 0.5" dir="0 0 1" castshadow="false"/>
+
+    <!-- Floor -->
+    <geom name="floor" type="plane" size="5 5 0.1" material="mat_floor"/>
+
+    <!-- QUADRUPED ROBOT -->
+    <body name="torso" pos="0 0 0.6">
+      <!-- Free joint allows the robot to move around the world -->
+      <freejoint name="root"/>
+      <geom name="chassis" type="box" size="0.3 0.15 0.05" material="matte_dark_metal" mass="5"/>
+
+      <!-- Front Left Leg -->
+      <body name="fl_hip" pos="0.2 0.18 0">
+        <joint name="fl_hip_joint" axis="1 0 0" range="-30 30"/>
+        <geom type="cylinder" size="0.04 0.04" material="anodized_gold" euler="90 0 0"/>
+        <body name="fl_thigh" pos="0 0.05 0">
+          <joint name="fl_thigh_joint" axis="0 1 0" range="-45 45"/>
+          <geom class="leg_link" size="0.03" fromto="0 0 0 0 0 -0.25"/>
+          <body name="fl_calf" pos="0 0 -0.25">
+            <joint name="fl_calf_joint" axis="0 1 0" range="-120 -30"/>
+            <geom class="leg_link" size="0.025" fromto="0 0 0 0 0 -0.25"/>
+          </body>
+        </body>
+      </body>
+
+      <!-- Front Right Leg -->
+      <body name="fr_hip" pos="0.2 -0.18 0">
+        <joint name="fr_hip_joint" axis="1 0 0" range="-30 30"/>
+        <geom type="cylinder" size="0.04 0.04" material="anodized_gold" euler="90 0 0"/>
+        <body name="fr_thigh" pos="0 -0.05 0">
+          <joint name="fr_thigh_joint" axis="0 1 0" range="-45 45"/>
+          <geom class="leg_link" size="0.03" fromto="0 0 0 0 0 -0.25"/>
+          <body name="fr_calf" pos="0 0 -0.25">
+            <joint name="fr_calf_joint" axis="0 1 0" range="-120 -30"/>
+            <geom class="leg_link" size="0.025" fromto="0 0 0 0 0 -0.25"/>
+          </body>
+        </body>
+      </body>
+
+      <!-- Back Left Leg -->
+      <body name="bl_hip" pos="-0.2 0.18 0">
+        <joint name="bl_hip_joint" axis="1 0 0" range="-30 30"/>
+        <geom type="cylinder" size="0.04 0.04" material="anodized_gold" euler="90 0 0"/>
+        <body name="bl_thigh" pos="0 0.05 0">
+          <joint name="bl_thigh_joint" axis="0 1 0" range="-45 45"/>
+          <geom class="leg_link" size="0.03" fromto="0 0 0 0 0 -0.25"/>
+          <body name="bl_calf" pos="0 0 -0.25">
+            <joint name="bl_calf_joint" axis="0 1 0" range="-120 -30"/>
+            <geom class="leg_link" size="0.025" fromto="0 0 0 0 0 -0.25"/>
+          </body>
+        </body>
+      </body>
+
+      <!-- Back Right Leg -->
+      <body name="br_hip" pos="-0.2 -0.18 0">
+        <joint name="br_hip_joint" axis="1 0 0" range="-30 30"/>
+        <geom type="cylinder" size="0.04 0.04" material="anodized_gold" euler="90 0 0"/>
+        <body name="br_thigh" pos="0 -0.05 0">
+          <joint name="br_thigh_joint" axis="0 1 0" range="-45 45"/>
+          <geom class="leg_link" size="0.03" fromto="0 0 0 0 0 -0.25"/>
+          <body name="br_calf" pos="0 0 -0.25">
+            <joint name="br_calf_joint" axis="0 1 0" range="-120 -30"/>
+            <geom class="leg_link" size="0.025" fromto="0 0 0 0 0 -0.25"/>
+          </body>
+        </body>
+      </body>
+      
+    </body>
+  </worldbody>
+</mujoco>
