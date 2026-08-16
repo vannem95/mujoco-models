@@ -9,7 +9,7 @@
     <body name="torso" pos="0 0 0.2">
       <site name="torso_site" pos="0.188 0 0.095" type="sphere" rgba="1 0 0 1"/>            
       <joint name="torso_joint" type="free" limited="false" actuatorfrclimited="false"/>
-      <geom size="0.1909 0.09525 0.0936625" type="box" mass="10" rgba="0.694118 0.65098 0.533333 1"/>
+      <geom size="0.1909 0.09525 0.0936625" type="box" mass="11.0" rgba="0.694118 0.65098 0.533333 1"/>
       <body name="torso_left_thigh" pos="-0.0755 0.12065 -0.035">
         <joint name="torso_left_thigh_joint" pos="0 0 0" axis="0 1 0" armature="0.0072" damping="0.0"/>
         <geom name="torso_left_thigh_geom" size="0.02 0.0508" pos="0 0.02 -0.0508" type="capsule" mass="0.461" rgba="0.694118 0.65098 0.533333 1"/>
@@ -55,7 +55,7 @@
       
       <body name="head" pos="0.3638 0 0">
         <!-- <geom size="0.165 0.08255 0.0762" type="box" mass="11.25" rgba="0.694118 0.65098 0.533333 1"/> -->
-        <geom size="0.1475 0.09525 0.0936625" type="box" mass="10" rgba="0.694118 0.65098 0.533333 1"/>
+        <geom size="0.1475 0.09525 0.0936625" type="box" mass="9.0" rgba="0.694118 0.65098 0.533333 1"/>
         
         <body name="head_left_thigh" pos="0.032 0.12065 -0.035">
           <!-- <joint name="head_left_thigh_joint" pos="0 0 0" axis="0 1 0" armature="0.0072" damping="0.05"/> -->
