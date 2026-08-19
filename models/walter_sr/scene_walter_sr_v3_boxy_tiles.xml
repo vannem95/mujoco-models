@@ -26,7 +26,7 @@
     <!-- <geom name="tile1" type="box" pos="0.525 -0.21 0.0" size="0.09 0.05 0.0001" rgba="1.0 1.0 0.0 1"/>
     <geom name="tile2" type="box" pos="0.525 0.21 0.005" size="0.09 0.05 0.0001" rgba="1.0 1.0 0.0 1"/> -->
 
-    <geom name="tile3" type="box" pos="0.705 -0.21 0.0" size="0.09 0.05 0.025" rgba="0.0 0.0 1.0 1"/>
+    <geom name="tile3" type="box" pos="0.705 -0.21 0.0" size="0.09 0.05 0.1" rgba="0.0 0.0 1.0 1"/>
     <!-- <geom name="tile4" type="box" pos="0.705 0.21 0.0" size="0.09 0.05 0.0001" rgba="0.0 0.0 1.0 1"/> -->
 
     <!-- <geom name="tile5" type="box" pos="0.885 -0.21 0.0" size="0.09 0.05 0.0001" rgba="0.0 1.0 0.0 1"/>
@@ -35,7 +35,7 @@
     <geom name="tile7" type="box" pos="1.065 -0.21 0.0" size="0.09 0.05 0.0001" rgba="1.0 1.0 0.0 1"/>
     <geom name="tile8" type="box" pos="1.065 0.21 0.0" size="0.09 0.05 0.0001" rgba="1.0 1.0 0.0 1"/> -->
 
-    <geom name="tile9" type="box" pos="1.245 -0.21 0.0" size="0.09 0.05 0.025" rgba="0.0 0.0 1.0 1"/>
+    <geom name="tile9" type="box" pos="1.245 -0.21 0.0" size="0.09 0.05 0.1" rgba="0.0 0.0 1.0 1"/>
     <!-- <geom name="tile10" type="box" pos="1.245 0.21 0.0" size="0.09 0.05 0.0001" rgba="0.0 0.0 1.0 1"/> -->
 
     <!-- <geom name="tile11" type="box" pos="1.425 -0.21 0.0" size="0.09 0.05 0.0001" rgba="0.0 1.0 0.0 1"/>
@@ -51,7 +51,7 @@
     <geom name="tile18" type="box" pos="1.965 0.21 0.0" size="0.09 0.05 0.0001" rgba="0.0 1.0 0.0 1"/> -->
 
     <!-- <geom name="tile19" type="box" pos="2.145 -0.21 0.0" size="0.09 0.05 0.0001" rgba="1.0 1.0 0.0 1"/> -->
-    <geom name="tile20" type="box" pos="2.145 0.21 0.0" size="0.09 0.05 0.025" rgba="1.0 1.0 0.0 1"/>
+    <geom name="tile20" type="box" pos="2.145 0.21 0.0" size="0.09 0.05 0.1" rgba="1.0 1.0 0.0 1"/>
 
     <!-- <geom name="tile21" type="box" pos="2.325 -0.21 0.0" size="0.09 0.05 0.0001" rgba="0.0 0.0 1.0 1"/>
     <geom name="tile22" type="box" pos="2.325 0.21 0.0" size="0.09 0.05 0.0001" rgba="0.0 0.0 1.0 1"/> -->
