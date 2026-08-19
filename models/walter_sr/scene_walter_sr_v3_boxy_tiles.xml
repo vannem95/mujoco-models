@@ -23,38 +23,38 @@
     <geom name="floor" size="0 0 0.05" type="plane" material="groundplane" solref="0.01 1.0"/>
 
 
-    <geom name="tile1" type="box" pos="0.525 -0.21 0.005" size="0.09 0.05 0.0001" rgba="1.0 1.0 0.0 1"/>
-    <geom name="tile2" type="box" pos="0.525 0.21 0.005" size="0.09 0.05 0.0001" rgba="1.0 1.0 0.0 1"/>
+    <!-- <geom name="tile1" type="box" pos="0.525 -0.21 0.0" size="0.09 0.05 0.0001" rgba="1.0 1.0 0.0 1"/>
+    <geom name="tile2" type="box" pos="0.525 0.21 0.005" size="0.09 0.05 0.0001" rgba="1.0 1.0 0.0 1"/> -->
 
-    <geom name="tile3" type="box" pos="0.705 -0.21 0.0023" size="0.09 0.05 0.025" rgba="0.0 0.0 1.0 1"/>
-    <geom name="tile4" type="box" pos="0.705 0.21 0.0023" size="0.09 0.05 0.0001" rgba="0.0 0.0 1.0 1"/>
+    <geom name="tile3" type="box" pos="0.705 -0.21 0.0" size="0.09 0.05 0.025" rgba="0.0 0.0 1.0 1"/>
+    <!-- <geom name="tile4" type="box" pos="0.705 0.21 0.0" size="0.09 0.05 0.0001" rgba="0.0 0.0 1.0 1"/> -->
 
-    <geom name="tile5" type="box" pos="0.885 -0.21 0.0035" size="0.09 0.05 0.0001" rgba="0.0 1.0 0.0 1"/>
-    <geom name="tile6" type="box" pos="0.885 0.21 0.0035" size="0.09 0.05 0.0001" rgba="0.0 1.0 0.0 1"/>
+    <!-- <geom name="tile5" type="box" pos="0.885 -0.21 0.0" size="0.09 0.05 0.0001" rgba="0.0 1.0 0.0 1"/>
+    <geom name="tile6" type="box" pos="0.885 0.21 0.0" size="0.09 0.05 0.0001" rgba="0.0 1.0 0.0 1"/>
 
-    <geom name="tile7" type="box" pos="1.065 -0.21 0.0005" size="0.09 0.05 0.0001" rgba="1.0 1.0 0.0 1"/>
-    <geom name="tile8" type="box" pos="1.065 0.21 0.0005" size="0.09 0.05 0.0001" rgba="1.0 1.0 0.0 1"/>
+    <geom name="tile7" type="box" pos="1.065 -0.21 0.0" size="0.09 0.05 0.0001" rgba="1.0 1.0 0.0 1"/>
+    <geom name="tile8" type="box" pos="1.065 0.21 0.0" size="0.09 0.05 0.0001" rgba="1.0 1.0 0.0 1"/> -->
 
-    <geom name="tile9" type="box" pos="1.245 -0.21 0.0029" size="0.09 0.05 0.025" rgba="0.0 0.0 1.0 1"/>
-    <geom name="tile10" type="box" pos="1.245 0.21 0.0029" size="0.09 0.05 0.0001" rgba="0.0 0.0 1.0 1"/>
+    <geom name="tile9" type="box" pos="1.245 -0.21 0.0" size="0.09 0.05 0.025" rgba="0.0 0.0 1.0 1"/>
+    <!-- <geom name="tile10" type="box" pos="1.245 0.21 0.0" size="0.09 0.05 0.0001" rgba="0.0 0.0 1.0 1"/> -->
 
-    <geom name="tile11" type="box" pos="1.425 -0.21 0.0044" size="0.09 0.05 0.0001" rgba="0.0 1.0 0.0 1"/>
-    <geom name="tile12" type="box" pos="1.425 0.21 0.0044" size="0.09 0.05 0.0001" rgba="0.0 1.0 0.0 1"/>
+    <!-- <geom name="tile11" type="box" pos="1.425 -0.21 0.0" size="0.09 0.05 0.0001" rgba="0.0 1.0 0.0 1"/>
+    <geom name="tile12" type="box" pos="1.425 0.21 0.0" size="0.09 0.05 0.0001" rgba="0.0 1.0 0.0 1"/>
 
-    <geom name="tile13" type="box" pos="1.605 -0.21 0.0018" size="0.09 0.05 0.0001" rgba="1.0 1.0 0.0 1"/>
-    <geom name="tile14" type="box" pos="1.605 0.21 0.0018" size="0.09 0.05 0.0001" rgba="1.0 1.0 0.0 1"/>
+    <geom name="tile13" type="box" pos="1.605 -0.21 0.0" size="0.09 0.05 0.0001" rgba="1.0 1.0 0.0 1"/>
+    <geom name="tile14" type="box" pos="1.605 0.21 0.0" size="0.09 0.05 0.0001" rgba="1.0 1.0 0.0 1"/>
 
-    <geom name="tile15" type="box" pos="1.785 -0.21 0.0049" size="0.09 0.05 0.0001" rgba="0.0 0.0 1.0 1"/>
-    <geom name="tile16" type="box" pos="1.785 0.21 0.0049" size="0.09 0.05 0.0001" rgba="0.0 0.0 1.0 1"/>
+    <geom name="tile15" type="box" pos="1.785 -0.21 0.0" size="0.09 0.05 0.0001" rgba="0.0 0.0 1.0 1"/>
+    <geom name="tile16" type="box" pos="1.785 0.21 0.0" size="0.09 0.05 0.0001" rgba="0.0 0.0 1.0 1"/>
 
-    <geom name="tile17" type="box" pos="1.965 -0.21 0.0011" size="0.09 0.05 0.0001" rgba="0.0 1.0 0.0 1"/>
-    <geom name="tile18" type="box" pos="1.965 0.21 0.0011" size="0.09 0.05 0.0001" rgba="0.0 1.0 0.0 1"/>
+    <geom name="tile17" type="box" pos="1.965 -0.21 0.0" size="0.09 0.05 0.0001" rgba="0.0 1.0 0.0 1"/>
+    <geom name="tile18" type="box" pos="1.965 0.21 0.0" size="0.09 0.05 0.0001" rgba="0.0 1.0 0.0 1"/> -->
 
-    <geom name="tile19" type="box" pos="2.145 -0.21 0.0042" size="0.09 0.05 0.0001" rgba="1.0 1.0 0.0 1"/>
-    <geom name="tile20" type="box" pos="2.145 0.21 0.0042" size="0.09 0.05 0.025" rgba="1.0 1.0 0.0 1"/>
+    <!-- <geom name="tile19" type="box" pos="2.145 -0.21 0.0" size="0.09 0.05 0.0001" rgba="1.0 1.0 0.0 1"/> -->
+    <geom name="tile20" type="box" pos="2.145 0.21 0.0" size="0.09 0.05 0.025" rgba="1.0 1.0 0.0 1"/>
 
-    <geom name="tile21" type="box" pos="2.325 -0.21 0.0003" size="0.09 0.05 0.0001" rgba="0.0 0.0 1.0 1"/>
-    <geom name="tile22" type="box" pos="2.325 0.21 0.0003" size="0.09 0.05 0.0001" rgba="0.0 0.0 1.0 1"/>
+    <!-- <geom name="tile21" type="box" pos="2.325 -0.21 0.0" size="0.09 0.05 0.0001" rgba="0.0 0.0 1.0 1"/>
+    <geom name="tile22" type="box" pos="2.325 0.21 0.0" size="0.09 0.05 0.0001" rgba="0.0 0.0 1.0 1"/> -->
 
   </worldbody>
 
